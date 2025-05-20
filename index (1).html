@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Aplicação</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    header, footer, section { padding: 40px 20px; text-align: center; }
+    nav a { margin: 0 15px; color: #0077cc; text-decoration: none; }
+    .hero { background-color: #f0f0f0; padding: 60px 20px; }
+    .cta-btn { display: inline-block; margin-top: 20px; padding: 15px 30px; background-color: #0077cc; color: #fff; border-radius: 5px; text-decoration: none; }
+    .section { background-color: #fafafa; margin: 20px 0; }
+    .features, .plans { display: flex; justify-content: space-around; flex-wrap: wrap; }
+    .feature, .plan { width: 250px; margin: 20px; padding: 20px; background: #fff; border: 1px solid #ddd; border-radius: 10px; }
+    form input, form textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+    form button { padding: 10px 20px; background: #0077cc; color: white; border: none; border-radius: 5px; }
+    footer { background-color: #222; color: white; }
+  </style>
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Logo da Aplicação</h1>
+    <nav>
+      <a href="#sobre">Sobre</a>
+      <a href="#funcionalidades">Funcionalidades</a>
+      <a href="#precos">Preços</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="cta-btn" href="#inscricao">Baixe Agora</a>
+  </header>
+
+  <!-- Banner Principal -->
+  <section class="hero">
+    <h2>Bem-vindo ao nosso aplicativo!</h2>
+    <p>Uma solução simples e poderosa para facilitar sua vida.</p>
+    <a class="cta-btn" href="#inscricao">Comece Agora</a>
+  </section>
+
+  <!-- Descrição da Aplicação -->
+  <section id="sobre" class="section">
+    <h2>O que é nosso aplicativo?</h2>
+    <p>Nosso app ajuda você a organizar suas tarefas de forma eficiente.</p>
+    <img src="https://via.placeholder.com/500x300" alt="Demonstração da Aplicação">
+  </section>
+
+  <!-- Funcionalidades -->
+  <section id="funcionalidades" class="section">
+    <h2>Funcionalidades Principais</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Organização de Tarefas</h3>
+        <p>Crie, edite e gerencie tarefas com facilidade.</p>
+      </div>
+      <div class="feature">
+        <h3>Alertas e Notificações</h3>
+        <p>Receba lembretes para não perder prazos importantes.</p>
+      </div>
+      <div class="feature">
+        <h3>Relatórios Visuais</h3>
+        <p>Acompanhe seu progresso com gráficos claros.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chamada para Ação Secundária -->
+  <section class="section">
+    <h2>Ainda com dúvidas?</h2>
+    <a class="cta-btn" href="#demo">Veja o Demo</a>
+    <a class="cta-btn" href="#teste">Teste Gratuito</a>
+  </section>
+
+  <!-- Preços -->
+  <section id="precos" class="section">
+    <h2>Planos e Preços</h2>
+    <div class="plans">
+      <div class="plan">
+        <h3>Gratuito</h3>
+        <p>Ideal para começar</p>
+        <p><strong>R$ 0/mês</strong></p>
+      </div>
+      <div class="plan">
+        <h3>Profissional</h3>
+        <p>Mais recursos e suporte</p>
+        <p><strong>R$ 29/mês</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section">
+    <h2>Fale Conosco</h2>
+    <form>
+      <input type="text" placeholder="Seu nome" required>
+      <input type="email" placeholder="Seu e-mail" required>
+      <textarea placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>©️ 2025 Minha Aplicação. Todos os direitos reservados.</p>
+    <p>Nos siga: Instagram | Facebook | LinkedIn</p>
+  </footer>
+
+</body>
+</html>
